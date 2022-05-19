@@ -60,5 +60,5 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git (locally)
 
 - Commit 5: added form boilerplate
-    - Add the *boilerplate* for our **form**
-    
+    - [x] Add the *boilerplate* for our **form**
+    - Commi to Git (locally)
