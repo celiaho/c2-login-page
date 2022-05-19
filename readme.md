@@ -8,7 +8,7 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Create 'style.css' in VS Code
     - [x] Add a Header tag in VS Code
     - [x] Verify it looks/works as expected
-    - Publish to GitHub
+    - [x] Publish to GitHub
     - Publish to Vercel
         - Why? So it's publicly accessible to everyone
 
@@ -21,3 +21,28 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 ## Reference
 - emmet.io
+
+## Methods
+- Web Development Project Cycle
+    - Create project folder
+    - Add files
+    - Publish to GitHub
+    - Publish to a live server  (Vercel)
+
+- A project cycle
+    - Add files
+    - Make changes to the files
+    - **Commit**ting to GitHub
+
+
+### Project Cycles
+- Commit 1: first commit
+    - [x] Create `index.html` in VS Code
+    - [x] Create `readme.md` in VS Code
+    - [x] Create `style.css` in VS Code
+    - [x] Add a Header tag in VS Code
+    - [x] Verify it looks/works as expected
+    - [x] Publish to GitHub
+
+- Commit 2: Added method notes
+    - [x] Add a bunch of markdown notes to my `readme.md`
