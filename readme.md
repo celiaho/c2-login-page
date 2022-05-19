@@ -14,10 +14,10 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 
 ## Github URL
-
+<a href="http://github.com/celiaho/c2-login-page" target="_blank">http://github.com/celiaho/c2-login-page</a>
 
 ## Vercel URL
-
+<a href="http://c2-login-page-blue.vercel.app/" target="_blank">http://c2-login-page-blue.vercel.app/</a>
 
 ## Reference
 - emmet.io
@@ -46,19 +46,18 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 - Commit 2: added method notes
     - [x] Add a bunch of markdown notes to my `readme.md`
-
-- Commit 3: added Counseal logo
     - [x] Find good Counseal logo online
     - [x] Copy direct logo, ideally `.png` 
     - [x] Add img tag to `index.html`
     - [x] Commit to Git on my local VS Code
-    - [x] Push GitHub
+    - [x] Push to GitHub
 
-- Commit 4: added page description
+- Commit 3: added page description
     - [x] Add `p` tag describing what the page is about
     - [x] Emphasize some section of the text
     - [x] Commit to Git (locally)
 
-- Commit 5: added form boilerplate
-    - [x] Add the *boilerplate* for our **form**
-    - Commi to Git (locally)
+- Commit 4: added form boilerplate
+    - [x] Add the *boilerplate* for **form**
+    - [x] Add placeholders for form elements
+    - [ ] Commit to Git (locally)
