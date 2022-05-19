@@ -14,10 +14,10 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 
 ## Github URL
-<a href="http://github.com/celiaho/c2-login-page" target="_blank">http://github.com/celiaho/c2-login-page</a>
+<a href="https://github.com/celiaho/c2-login-page" target="_blank">https://github.com/celiaho/c2-login-page</a>
 
 ## Vercel URL
-<a href="http://c2-login-page-blue.vercel.app/" target="_blank">http://c2-login-page-blue.vercel.app/</a>
+<a href="https://c2-login-page-celiaho.vercel.app/" target="_blank">https://c2-login-page-celiaho.vercel.app/</a>
 
 ## Reference
 - emmet.io
@@ -57,13 +57,17 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Emphasize some section of the text
     - [x] Commit to Git (locally)
 
-- Commit 4: added form boilerplate & elements
+- Commits 4-7: added form boilerplate & elements
     - [x] Add the *boilerplate* for **form**
     - [x] Add placeholders for form elements
+    - [x] Took notes on Dele's advice re: div container/CSS setup
     - [x] Commit to Git (locally)
     - [x] Push to GitHub
 
-- Commit 5:
-    - [] Add image https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg18.jpg
-    - [] Format background color
+- Commit 8:
+    - [x] Update method notes for commits 4-7
+    - [x] Add div containers
+    - [x] Update CSS
+    - [] Add image https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg13.jpg
+    - [x] Format background color
     - [] Commit to Git (locally)
