@@ -1,21 +1,32 @@
 #parent {
     height: 100vh;
-}
-
-body {    
-    font: #6E6E6E;
-    width: 350px;
-    margin: auto;
+    display: flex; /* the trick to HALF the screen */
 }
 
 #my-form {
-    background: #fff;
-    /* display: flex;
-    justify-content: center; */
+    background: rgb(223, 225, 229);
+    /* the trick to centering anything with CSS */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* the trick ends here */
     width: 50%;
+    height: 100%;
+    font: #6E6E6E;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+#my-form > img {
+    width: 250px;
+    /* height: 20px; */
 }
 
 #fancy-bkg {
     width: 50%;
-    /* background-image: url(''); */
+    background: #000;
+    background: url('./ukr.webp') center ;
+    /* 
+    background: url('https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg13.jpg') center;
+    */
 }
