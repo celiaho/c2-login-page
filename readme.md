@@ -57,7 +57,13 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Emphasize some section of the text
     - [x] Commit to Git (locally)
 
-- Commit 4: added form boilerplate
+- Commit 4: added form boilerplate & elements
     - [x] Add the *boilerplate* for **form**
     - [x] Add placeholders for form elements
-    - [ ] Commit to Git (locally)
+    - [x] Commit to Git (locally)
+    - [x] Push to GitHub
+
+- Commit 5:
+    - [] Add image https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg18.jpg
+    - [] Format background color
+    - [] Commit to Git (locally)
