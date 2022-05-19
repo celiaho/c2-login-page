@@ -46,3 +46,10 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 - Commit 2: Added method notes
     - [x] Add a bunch of markdown notes to my `readme.md`
+
+- Commit 3: Added Counseal logo
+    - [x] Find good Counseal logo online
+    - [x] Copy direct logo, ideally `.png` 
+    - [x] Add img tag to `index.html`
+    - Commit to Git on my local VS Code
+    - Push GitHub
