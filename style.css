@@ -1,6 +1,17 @@
+body {
+    margin: 0px;
+}
+    
 #parent {
     height: 100vh;
     display: flex; /* the trick to HALF the screen */
+    /* margin: none; */
+}
+
+#fancy-bkg {
+    width: 50%;
+    background: #000;
+    background-image: url('https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg6.jpg');
 }
 
 #my-form {
@@ -10,6 +21,7 @@
     justify-content: center; 
     align-items: center;
     /* the trick ends here */
+    flex-direction: column;
     width: 50%;
     height: 100%;
     font: #6E6E6E;
@@ -18,15 +30,117 @@
 }
 
 #my-form > img {
-    width: 250px;
+    width: 0px; /* This image sizing has no effect */
     /* height: 20px; */
+    /* padding: 300px; 
+    border-style: solid 2px; 
+    Attempt to space logo. Neither line works and Idk why */
 }
 
-#fancy-bkg {
-    width: 50%;
-    background: #000;
-    background: url('./ukr.webp') center ;
-    /* 
-    background: url('https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg13.jpg') center;
-    */
+form {
+    display: inline;
+    width: auto;
+}
+
+div {
+    color: #6E6E6E;
+}
+
+/* This references the class "no-border" */
+.no-border {
+    border: 0;
+    outline: none;
+}
+
+/*** Experiment: Will this outline the selected field? 
+.no-border:focus {
+    border-color: aqua;
+}
+***/
+
+#login-email-input {
+    border: none rgb(223, 225, 229);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #dce7ef;
+}
+
+#login-password-input {
+    border: none;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #dce7ef;
+}
+
+/* Checkbox shenanigans: How to remove the border? */
+#rememberme {
+    outline: 2px solid #dce7ef; 
+    outline-offset: 0px;
+    
+    /* TRIES #1-4: None of these affect the checkbox outline in Chrome */
+    /* border: none; */
+    /* border-style: none; */
+    /* border-style: hidden; */
+    /* outline-style: none; */
+
+    /* TRY #5: This doesn't work */
+    /* border-style: solid;
+    border-color: transparent; */
+
+    /* TRY #6: No effect */
+    /* border: 3px solid white; */
+}
+
+/* Button shenanigans */
+#login {
+    display: flex;
+    border: none;
+    background-color: rgb(223, 225, 229);
+    margin: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10pt;
+}
+
+#rememberme-loginbutton {
+    /* RememberMe HavingTrouble || LoginButton */
+    display: flex;
+    justify-content: space-between;
+}
+
+#rememberme-havingtrouble {
+    /* RememberMe || HavingTrouble */
+    display: flex;
+    justify-content: space-around; gap: 15px;
+    /* This vertically aligns to bottom  */
+    align-items: flex-end;
+}
+
+/*** Working on this. Nesting syntax? ***/
+#having-trouble > a {
+    text-decoration: none;
+}
+
+#button {
+    background-color: #00B1E0;
+    color: #6E6E6E;
+    padding: 0.3125rem 0.9375rem 0.375rem;
+    border: none;
+    border-color: transparent;
+    border-bottom-right-radius: 10px;
+    margin-left: 50px; /* Malcolm's spacing method */
+}
+/* End button shenanigans */
+
+a {
+    font-size: 9pt;
+    color: #6E6E6E;
 }

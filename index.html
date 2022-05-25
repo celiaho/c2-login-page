@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Counseal by Authority Wit - Login</title>
         <link rel="stylesheet" href="style.css">
+        
     </head>
 
     <body>
@@ -15,7 +16,15 @@
 
             <!-- left side -->
             <div id="my-form">
+                <!-- Following code replaced by #button
                 <style>
+                    /* Code from inspector? What was this meant to do? */
+                    /* 
+                    input:focus, textarea: focus, select:focus {
+                        outline-color: #b3d4fc;
+                    } 
+                    */
+                    
                     .button {
                         border: none;
                         background-color: #00B1E0;
@@ -24,15 +33,15 @@
                         align-items: center;
                         vertical-align: middle;
                         justify-content: center;
-                        <!-- padding: 16px 32px;
-                        text-align: center; -->
-                        cursor: pointer;
+                        padding: 16px 32px;
+                        text-align: center;
                         padding: 0.3125rem 0.9375rem 0.375rem;
                     }
             
                     .button1 {
                         background-color: #00B1E0;
                         text-align: center;
+                        border-bottom-right-radius: 10px;
                     }
             
                     .button1:hover {
@@ -40,24 +49,43 @@
                         text-align: center;
                     }
                 </style>
-                    
-                <h1 id="header">
-                <!--  
-                    <p>
-                        Our <strong>home page</strong> login that <em>lets you log in to a page</em>
-                    </p>
                 -->
-                </h1> 
+                    
+                <h1 id="header"></h1> 
 
-                <!-- <img src="http://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="Counseal logo"><br> -->
+                <form action="#" method="post"> <!-- Replace "#" with "/action_page.php"-->
+                    <div id="login-logo">
+                        <img src="http://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="Counseal logo">
+                    </div>
 
-                <form action="#">
-                    <img src="http://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="Counseal logo"><br>
-                    <input type="email" name="user-email" id="user-email" placeholder="Email"><br>
-                    <input type="password" name="user-password" id="password" placeholder="Password"><br>
-                    <input type="checkbox" id="rememberme" name="rememberme" value="rememberme"><label for="rememberme">Remember Me</label> (<a href="http://app.counseal.com/site/havingTrouble">Having Trouble?</a>) 
-                    <button type="button" class="button button1" onclick="alert('Please fill out the Email and Password fields.')">Login</button>
-                    <input type="submit" value="Login">
+                    <div id="login-email-input">
+                        <input type="email" name="user-email" id="user-email" placeholder="Email" class="no-border">
+                    </div>
+                    
+                    <div id="login-password-input">
+                        <input type="password" name="user-password" id="password" placeholder="Password" class="no-border">
+                    </div>
+                    
+                    <div id="login">
+                        <div id="rememberme-havingtrouble">
+                            <div id="remember-me">
+                                <input type="checkbox" id="rememberme" name="rememberme" value="rememberme"><label for="rememberme">Remember Me</label>
+                            </div>
+                            
+                            <div id="having-trouble">
+                                (<a href="http://app.counseal.com/site/havingTrouble">Having Trouble?</a>)
+                                <!-- (<a href="http://app.counseal.com/site/havingTrouble" 
+                                style="text-decoration:none">Having Trouble?</a>) -->
+                            </div>
+                        </div>
+
+                        <div id="login-button">
+                            <input type="submit" value="Login" id="button">
+                        </div>
+                        <!-- Following code replaced by #button 
+                        <button type="button" class="button button1" onclick="alert('Please fill out the Email and Password fields.')">Login</button> 
+                        -->
+                    </div>
                 </form>
             </div>
         
