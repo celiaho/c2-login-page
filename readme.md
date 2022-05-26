@@ -73,24 +73,25 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git (locally)
     - [x] Push to GitHub
 
-    Commit 11: 
+    Commit 11: added form features
     - [x] Demarcate boxes for login form
     - [x] Fix background image
     - [x] Remove margin around page
-    - [] Resize logo
-    - [] Space logo
-    - [] Format boxes
+    - [x] Format boxes
         - [x] Round email input box
         - [x] Round password input box
         - [x] Round login button
         - [x] Hide input field borders
-        - [] Change color of checkbox border
         - [x] Remove hyperlink style decoration
         - [x] Make login button formatted & functional
         - [x] Space "(Having Trouble?)"
         - [x] Space login button
         - [x] Add colored outline to input boxes
-        - [] Add outline-on-selection to input fields
-        - [] Change font color in input boxes
-        - [] Add font weight to login button?
-        - [] Change "Remember Me" font size (Is font size responsive?)
+    - [x] Commit to Git locally
+    - [x] Push to GitHub
+
+Commit 12: cleaned up code & method notes
+    - [x] Clean up notes/comments
+    - [x] Clean up method notes
+    - [x] Commit to Git locally
+    - [x] Push to GitHub
