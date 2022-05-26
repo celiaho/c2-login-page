@@ -73,7 +73,7 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git (locally)
     - [x] Push to GitHub
 
-    Commit 11: added form features
+- Commit 11: added form features
     - [x] Demarcate boxes for login form
     - [x] Fix background image
     - [x] Remove margin around page
@@ -90,8 +90,11 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git locally
     - [x] Push to GitHub
 
-Commit 12: cleaned up code & method notes
+- Commits 12-13: cleaned up code & method notes
     - [x] Clean up notes/comments
     - [x] Clean up method notes
     - [x] Commit to Git locally
     - [x] Push to GitHub
+
+- Commit 14: cleaned up method notes
+    - [x] Cleaned up method notes
