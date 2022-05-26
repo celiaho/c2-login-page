@@ -29,14 +29,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-#my-form > img {
-    width: 0px; /* This image sizing has no effect */
-    /* height: 20px; */
-    /* padding: 300px; 
-    border-style: solid 2px; 
-    Attempt to space logo. Neither line works and Idk why */
-}
-
 form {
     display: inline;
     width: auto;
@@ -52,19 +44,19 @@ div {
     outline: none;
 }
 
-/*** Experiment: Will this outline the selected field? 
+/*** Experiment: Will this outline the selected field? No. 
 .no-border:focus {
     border-color: aqua;
 }
 ***/
 
 #login-email-input {
+    padding: 10px;
     border: none rgb(223, 225, 229);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-color: #fff;
     margin: 10px;
-    padding: 10px;
     outline-style: solid;
     outline-width: 2px;
     outline-color: #dce7ef;
@@ -100,7 +92,7 @@ div {
     /* border: 3px solid white; */
 }
 
-/* Button shenanigans */
+/*** Start button shenanigans ***/
 #login {
     display: flex;
     border: none;
@@ -124,9 +116,14 @@ div {
     align-items: flex-end;
 }
 
-/*** Working on this. Nesting syntax? ***/
+/* Remove underline from hyperlink */
 #having-trouble > a {
     text-decoration: none;
+}
+
+a {
+    font-size: 9pt;
+    color: #6E6E6E;
 }
 
 #button {
@@ -136,11 +133,7 @@ div {
     border: none;
     border-color: transparent;
     border-bottom-right-radius: 10px;
-    margin-left: 50px; /* Malcolm's spacing method */
+    margin-left: 50px; 
+    /* Malcolm's spacing method */
 }
-/* End button shenanigans */
-
-a {
-    font-size: 9pt;
-    color: #6E6E6E;
-}
+/*** End button shenanigans ***/
