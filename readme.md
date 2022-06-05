@@ -98,3 +98,12 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
 
 - Commit 14: cleaned up method notes
     - [x] Cleaned up method notes
+
+- Commit 15: validate login form
+    - [x] Create new branch named `feature/validation`
+    - [x] Create src/css & src/js directories
+    - [x] Link TailwindCSS to HTML head
+    - [] Validate login form
+        - [x] Create error message
+        - [x] Write JS to trigger error message
+    - [] Commit to Git locally
