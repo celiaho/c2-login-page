@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/src/css/style.css">
         <title>Counseal by Authority Wit - Login</title>
     </head>
 
@@ -16,37 +17,54 @@
             <!-- left side -->
             <div id="my-form">
                 <!-- This is not an active form -->
-                <form action="/action_page.php" method="post">
+                <form id="login-form" action="/action_page.php" method="post">
                     <div id="login-logo">
                         <img src="http://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="Counseal logo">
-                    </div>
-
-                    <div id="login-email-input">
-                        <input type="email" name="user-email" id="user-email" placeholder="Email" class="no-border">
-                    </div>
-                    
-                    <div id="login-password-input">
-                        <input type="password" name="user-password" id="password" placeholder="Password" class="no-border">
-                    </div>
-                    
-                    <div id="login">
-                        <div id="rememberme-havingtrouble">
-                            <div id="remember-me">
-                                <input type="checkbox" id="rememberme" name="rememberme" value="rememberme"><label for="rememberme">Remember Me</label>
                             </div>
-                            
-                            <div id="having-trouble">
-                                (<a href="http://app.counseal.com/site/havingTrouble">Having Trouble?</a>)
+
+                        <!-- START error message -->
+                        <div id="error-div" class="hide">
+                            <div class="m-1 flex items-center bg-red-100 align-middle place-content-between p-3 px-5 border-2 border-red-200 rounded-lg"
+                            id="error-section">
+                            <!-- Error Message -->
+                            <div class="rounded-md" id="error-msg">
+                                <p class="text-l">Incorrect username or password.</p>
+                            </div>
+
+                            <!-- Close Button -->
+                            <div>
+                                <button id="close-btn" class="text-red-600 hover:text-red-400 font-semibold text-l rounded-full" id="close-btn">X</button>
                             </div>
                         </div>
-
-                        <div id="login-button">
-                            <input type="submit" value="Login" id="button">
                         </div>
-                        <!-- Following code replaced by #button 
-                        <button type="button" class="button button1" onclick="alert('Please fill out the Email and Password fields.')">Login</button> 
-                        -->
-                    </div>
+                        <!-- // END error message -->
+
+                        <div id="login-email-input">
+                            <input type="email" name="user-email" id="user-email" placeholder="Email" class="no-border">
+                            </div>
+
+                            <div id="login-password-input">
+                                <input type="password" name="user-password" id="password" placeholder="Password" class="no-border">
+                            </div>
+
+                                <div id="login">
+                                    <div id="rememberme-havingtrouble">
+                                        <div id="remember-me">
+                                            <input type="checkbox" id="rememberme" name="rememberme" value="rememberme"><label for="rememberme">Remember Me</label>
+                                        </div>
+
+                                        <div id="having-trouble">
+                                            (<a href="http://app.counseal.com/site/havingTrouble">Having Trouble?</a>)
+                                        </div>
+                                    </div>
+
+                                    <div id="login-button">
+                                        <input type="submit" value="Login" id="button">
+                                </div>
+                                        <!-- Following code replaced by #button 
+                                <button type="button" class="button button1" onclick="alert('Please fill out the Email and Password fields.')">Login</button> 
+                                -->
+                                    </div>
                 </form>
             </div>
         
@@ -56,7 +74,7 @@
 
         </div>
 
-        <script src="src/script.js"></script>
+        <script src="src/js/script.js"></script>
         
     </body>
 

@@ -50,6 +50,16 @@ div {
 }
 ***/
 
+/*** START CSS for error div ***/
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+/*** // END CSS for error div ***/
+
 #login-email-input {
     padding: 10px;
     border: none rgb(223, 225, 229);
