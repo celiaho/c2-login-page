@@ -103,7 +103,8 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Create new branch named `feature/validation`
     - [x] Create src/css & src/js directories
     - [x] Link TailwindCSS to HTML head
-    - [] Validate login form
+    - [x] Validate login form
         - [x] Create error message
         - [x] Write JS to trigger error message
-    - [] Commit to Git locally
+    - [x] Commit to Git locally
+    - [x] Push to GitHub
