@@ -108,3 +108,27 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
         - [x] Write JS to trigger error message
     - [x] Commit to Git locally
     - [x] Push to GitHub
+
+Commit 16: fixed login form validation, added dashboard page
+    - [x] Fix nested divs in messages
+    - [x] Rename `-div`s to `-msg`s
+    - [x] Change error message JS to conditional statement
+        - [x] Change `checkError` to `isError` (JS 16, 23)
+    - [x] Fix close message button
+    - [x] Clean up code 
+        - [x] All: Clean up comments
+        - [x] JS: Comment out `console.log`s
+        - [x] CSS: Clean up unused classes/IDs
+        - [x] HTML: Remove email value
+        - [x] HTML: Remove Dashboard test link
+    - [x] Add features suggested by Dele
+        - [x] Change curosr to pointer when mousing over close error button
+        - [x] Create dummy `dashboard.html`
+        - [x] Replace `showSuccessMsg` with a `login()` function for Dashboard
+    - [x] Commit to Git locally
+    - [] Merge `feature/validation` onto `main`
+        - [] Check out main
+        - [] Ctrl+Shift+P
+        - [] Select `feature/validation` 
+        - [] Merge on to `main`
+    - [] Push to GitHub

@@ -62,6 +62,10 @@ div {
     border-width: 2px;
     border-radius: 8px; /* 0.5rem */
 }
+
+#close-btn {
+    cursor: pointer;
+}
 /*** //END CSS for error message ***/
 
 #login-email-input {
