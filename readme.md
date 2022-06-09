@@ -109,7 +109,7 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git locally
     - [x] Push to GitHub
 
-Commit 16: fixed login form validation, added dashboard page
+Commits 16?-19: fixed login form validation, added dashboard page
     - [x] Fix nested divs in messages
     - [x] Rename `-div`s to `-msg`s
     - [x] Change error message JS to conditional statement
@@ -126,9 +126,12 @@ Commit 16: fixed login form validation, added dashboard page
         - [x] Create dummy `dashboard.html`
         - [x] Replace `showSuccessMsg` with a `login()` function for Dashboard
     - [x] Commit to Git locally
-    - [] Merge `feature/validation` onto `main`
-        - [] Check out main
-        - [] Ctrl+Shift+P
-        - [] Select `feature/validation` 
-        - [] Merge on to `main`
-    - [] Push to GitHub
+    - [x] Merge `feature/validation` onto `main`
+        - [x] Check out main
+        - [x] Ctrl+Shift+P
+        - [x] Select `feature/validation` 
+        - [x] Merge on to `main`
+    - [x] Push to GitHub
+
+Commit 20: updated method notes
+    - [x] Update method notes
