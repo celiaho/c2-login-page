@@ -109,7 +109,7 @@ This is  MSIMBO Phase 1, Section 2, Challenge 2: an attempt to recreate the Coun
     - [x] Commit to Git locally
     - [x] Push to GitHub
 
-Commits 16?-19: fixed login form validation, added dashboard page
+- Commits 16?-19: fixed login form validation, added dashboard page
     - [x] Fix nested divs in messages
     - [x] Rename `-div`s to `-msg`s
     - [x] Change error message JS to conditional statement
@@ -133,5 +133,5 @@ Commits 16?-19: fixed login form validation, added dashboard page
         - [x] Merge on to `main`
     - [x] Push to GitHub
 
-Commit 20: updated method notes
+- Commits 20-21: updated method notes
     - [x] Update method notes
