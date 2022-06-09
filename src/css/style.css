@@ -16,11 +16,11 @@ body {
 
 #my-form {
     background: rgb(223, 225, 229);
-    /* the trick to centering anything with CSS */
+    /* The trick to centering anything with CSS */
     display: flex;
     justify-content: center; 
     align-items: center;
-    /* the trick ends here */
+    /* The trick ends here */
     flex-direction: column;
     width: 50%;
     height: 100%;
@@ -38,19 +38,12 @@ div {
     color: #6E6E6E;
 }
 
-/* This references the class "no-border" */
 .no-border {
     border: 0;
     outline: none;
 }
 
-/*** Experiment: Will this outline the selected field? No. 
-.no-border:focus {
-    border-color: aqua;
-}
-***/
-
-/*** START CSS for error div ***/
+/*** START CSS for error message ***/
 .show {
     display: block;
 }
@@ -58,7 +51,18 @@ div {
 .hide {
     display: none;
 }
-/*** // END CSS for error div ***/
+
+.msg {
+    margin: 3px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    padding: 12px 20px;
+    border-width: 2px;
+    border-radius: 8px; /* 0.5rem */
+}
+/*** //END CSS for error message ***/
 
 #login-email-input {
     padding: 10px;
@@ -84,25 +88,12 @@ div {
 }
 
 /* Checkbox shenanigans: How to remove the border? */
-#rememberme {
+/* #rememberme {
     outline: 2px solid #dce7ef; 
     outline-offset: 0px;
-    
-    /* TRIES #1-4: None of these affect the checkbox outline in Chrome */
-    /* border: none; */
-    /* border-style: none; */
-    /* border-style: hidden; */
-    /* outline-style: none; */
+} */
 
-    /* TRY #5: This doesn't work */
-    /* border-style: solid;
-    border-color: transparent; */
-
-    /* TRY #6: No effect */
-    /* border: 3px solid white; */
-}
-
-/*** Start button shenanigans ***/
+/*** START button shenanigans ***/
 #login {
     display: flex;
     border: none;
@@ -126,7 +117,6 @@ div {
     align-items: flex-end;
 }
 
-/* Remove underline from hyperlink */
 #having-trouble > a {
     text-decoration: none;
 }
@@ -144,6 +134,5 @@ a {
     border-color: transparent;
     border-bottom-right-radius: 10px;
     margin-left: 50px; 
-    /* Malcolm's spacing method */
 }
-/*** End button shenanigans ***/
+/*** //END button shenanigans ***/
